@@ -19,6 +19,7 @@
 		594C5B3E2C78EA3100EFAF82 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C5B3D2C78EA3100EFAF82 /* CurrencyModel.swift */; };
 		594C5B402C78EAA000EFAF82 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C5B3F2C78EAA000EFAF82 /* CurrencyViewModel.swift */; };
 		594C5B422C78EC3600EFAF82 /* CurrencyViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C5B412C78EC3600EFAF82 /* CurrencyViewModelTests.swift */; };
+		594C5B442C78ED0300EFAF82 /* CurrencyConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C5B432C78ED0300EFAF82 /* CurrencyConverterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		594C5B3D2C78EA3100EFAF82 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		594C5B3F2C78EAA000EFAF82 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
 		594C5B412C78EC3600EFAF82 /* CurrencyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModelTests.swift; sourceTree = "<group>"; };
+		594C5B432C78ED0300EFAF82 /* CurrencyConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		594C5B392C78E9F900EFAF82 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				594C5B432C78ED0300EFAF82 /* CurrencyConverterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				594C5B3E2C78EA3100EFAF82 /* CurrencyModel.swift in Sources */,
+				594C5B442C78ED0300EFAF82 /* CurrencyConverterView.swift in Sources */,
 				594C5B402C78EAA000EFAF82 /* CurrencyViewModel.swift in Sources */,
 				594C5B142C78E9E100EFAF82 /* Persistence.swift in Sources */,
 				594C5B172C78E9E100EFAF82 /* Currency_Converter.xcdatamodeld in Sources */,
